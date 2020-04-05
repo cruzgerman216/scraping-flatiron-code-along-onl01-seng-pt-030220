@@ -17,7 +17,8 @@ class Scraper
   end
 
   def get_page
-     doc = Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
+     doc = Nokogiri::HTML(open("https://www.google.com/search?q=Could+not+find+a+valid+gem+%27nokogiri&rlz=1C1NDCM_enUS758US758&oq=Could+not+find+a+valid+gem+%27nokogiri&aqs=chrome..69i57j0l3.1046j0j7&sourceid=chrome&ie=UTF-8"))
+     puts
    end
 
    def get_courses
